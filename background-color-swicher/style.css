@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 60%;
+    border: solid black 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#red{
+    background: red;
+}
+.container{
+    text-align: center;
+    margin: 100px auto 100px;
+    width: 80%;
+    justify-content: center;
+}
+/* span{
+    display: block;
+    text-align: center;
+    justify-content: center;
+} */
+#black{
+    background: black;
+    color: cornsilk;
+}
+#green{
+    background: green;
+}
+#yellow{
+    background: yellow;
+}
+#blue{
+    background: blue;
+}
