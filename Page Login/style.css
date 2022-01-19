@@ -1,0 +1,25 @@
+div{
+    height:500px;
+    width:500px;
+    border: 2px solid rgb(235, 10, 10);
+    margin: 0 auto;
+    padding: 150px;
+    box-sizing: border-box;
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 5px 6px ;
+}
+
+
+
+
+h1{
+    color:red;
+    position:absolute;
+    align-items: center;
+    left: 40%;
+    
+
+
+}
+
