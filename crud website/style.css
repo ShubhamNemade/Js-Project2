@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: burlywood;
+}
+
+table.list{
+    width: 90%;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 9px;
+    text-align: left;
+    
+}
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+text{
+    width: 100%;
+    padding: 10px 12px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid green;
+    margin: 8px 0;
+}
+
+input[type="submit"]{
+    /* cursor: pointer; */
+    width: 20%;
+    background-color: rgb(37, 114, 1);
+    color: rgb(11, 12, 12);
+    /* padding: 14px 20px; */
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    height: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #1f200dc0;
+    margin-right: 4px;
+}
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+#fullName,#empcode,#Salary,#city{
+    width: 95%;
+    height: 25px;
+    border-radius: 5px;
+}
