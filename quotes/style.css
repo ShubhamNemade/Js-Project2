@@ -1,0 +1,32 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+#container{
+    background-color: rgb(231, 151, 45);
+    border: 5px solid black;
+    margin: 0 auto;
+    height: 300px;
+    width: 800px;
+    text-align: center;
+
+
+}
+
+#btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(235, 180, 180);
+    color:black;
+
+}
+
+#output{
+    margin: 25px auto;
+    font-size: 26px;
+    color:black;
+
+
+}
